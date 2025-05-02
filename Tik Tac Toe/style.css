@@ -1,0 +1,65 @@
+
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background: #92e6c7;
+  }
+  
+  h1 {
+    margin-top: 30px;
+  }
+  
+  #game {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    gap: 50px;
+    justify-content: center;
+    margin: 20px auto;
+  }
+  
+  .cell { color: #100d0d;
+    
+    width: 100px;
+    height: 100px;
+    background: #8ad3b0;
+    font-size: 5rem;
+    font-weight: bold;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: background 0.3s, transform 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    border: 15px solid #55ca99;
+  }
+  
+  #status {
+    margin-top: 10px;
+    font-weight: bold;
+    font-size: 1.5rem;
+  }
+  
+  #restart {
+    margin-top: 10px;
+    padding: 10px 20px;
+    font-size: 1.5rem;
+    cursor: pointer;
+    background: #cde38c;
+  }
+
+  a {
+    color: #f65a5a;
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer; 
+  }
+  
+  .player-x {
+    color: black;
+  }
+  
+  
+  .player-o {
+    color: white;
+  }
