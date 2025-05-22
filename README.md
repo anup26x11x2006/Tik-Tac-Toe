@@ -1,1 +1,1 @@
-   # TIk-Tac-Toe Made By ANUP    
+   # TIK-Tac-Toe Made By ANUP    
